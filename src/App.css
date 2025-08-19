@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d4c9b4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  background-color: #25330f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.menu2 {
+  align-items: center;
+}
+
+.books img {
+  width: 400px;
+  height: 300px;
+}
+
+.btn.btn-primary {
+  background: #d4c9b4;
+  border-color: #fff;
+  padding: 13px 35px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background 0.3s linear, color 0.3s linear;
+  -webkit-transition: background 0.3s linear, color 0.3s linear;
+}
+
+.card {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu-text {
+  color: white;
+  text-align: justify;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.discover {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+
+.discover-card {
+  background-color: #d4c9b4;
+}
+
+.discover img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+.discover-padding {
+  padding-bottom: 30px;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+.search-genre {
+  padding-top: 10px;
+}
+
+.custom-link {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.btn.btn-primary {
+  background: #d4c9b4;
+  border-color: #d4c9b4;
+  padding: 13px 35px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background 0.3s linear, color 0.3s linear;
+  -webkit-transition: background 0.3s linear, color 0.3s linear;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  background: #fff;
+  border-color: #d4c9b4;
+  color: #d4c9b4;
+}
+
+.footer {
+  background-color: #d4c9b4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+}
+
+.copyright-align {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.blog-block {
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: black;
+}
+
+.awards-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+.book-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.checkout-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.awards {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.login-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+.order {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+}
+
+.not-found {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  text-align: center;
+}
